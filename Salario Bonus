@@ -1,0 +1,24 @@
+# URI-Judge-Home-Work
+Post de Test.
+#include <stdio.h>
+#include <string.h>
+ 
+int main()
+{   
+    double B,C,RESULTADO;
+    char nome[10];
+ 
+     
+    scanf("%s", &nome);
+     
+    scanf("%lf", &B);
+     
+    scanf("%lf", &C);
+     
+    RESULTADO=(C*15/100)+B;
+     
+    printf("TOTAL = R$ %.2lf\n", RESULTADO );
+     
+    system("pause");
+    return 0;
+}
